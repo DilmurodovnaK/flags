@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="wrap">
+                <h1 class="title">Where in the world?</h1>
+                <div class="box">
+                    <button class="mode js-mode">
+                    <img class="mode-img" src="image/mooon.svg" alt="">
+                    </img>  Dark mode
+                    </button>
+                </div>
+            </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="wrapper">
+
+                <form>
+                    <input type="search" class="search js-input" placeholder="search for a country ...">
+                </form>
+                <select class="select js-select">
+        <option value="Filter region" disabled="" selected="">Filter by region</option>
+        </select>
+
+            </div>
+        </div>
+        <div class="container">
+            <ul class="list js-list"></ul>
+        </div>
+        <div class="card"></div>
+        <template class="js-template">
+        <li class="item js-item">
+            <img class= "item__img js-img" src="..." alt="">
+            <h3 class="item__title js-title">title</h3>
+             <span class="item__span population">12</span>
+            <span class="item__span capital">12</span>
+            <span class="item__span region">12</span>
+        </li>
+    </template>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

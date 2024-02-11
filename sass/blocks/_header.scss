@@ -1,0 +1,60 @@
+                                    * {
+                                        box-sizing: border-box;
+                                    }
+                                    
+                                    body {
+                                        margin: 0;
+                                        padding: 0;
+                                        background-color: rgb(250, 249, 249);
+                                    }
+                                    
+                                    .container {
+                                        max-width: 1240px;
+                                        padding: 0px 30px;
+                                        margin: 0 auto;
+                                    }
+                                    
+                                    .wrapper {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        margin-bottom: 30px;
+                                    }
+                                    /* MODE STYLE */
+                                    
+                                     :root {
+                                        --text-light-color: rgba(32, 44, 54, 1);
+                                        --text-dark-color: #fff;
+                                    }
+                                    
+                                    .dark {
+                                        background-color: rgba(32, 44, 54, 1);
+                                        color: #fff;
+                                    }
+                                    
+                                    .item-textColor {
+                                        color: var(--text-light-color);
+                                    }
+                                    /* MODE STYLE */
+                                    
+                                    .wrap {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        padding: 25px 0;
+                                    }
+                                    
+                                    .box {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                    }
+                                    
+                                    @media only screen and (max-width:664px) {
+                                        h1 {
+                                            font-size: 14px;
+                                            font-weight: 800;
+                                            line-height: 20px;
+                                            letter-spacing: 0px;
+                                            text-align: left;
+                                        }
+                                    }
